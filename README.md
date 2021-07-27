@@ -3,7 +3,8 @@ Java project to assess the Codacy tool offering. http://codacy.com
 
 
 export CODACY_PROJECT_TOKEN=<your project API token>
-
+bash <(curl -Ls https://coverage.codacy.com/get.sh) report -r report.xml
+bash <(curl -Ls https://coverage.codacy.com/get.sh) report -r report.xml
 For Java Codacy Coverage it is required to use JaCoco https://www.eclemma.org/jacoco/
 
 References
